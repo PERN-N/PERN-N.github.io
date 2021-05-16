@@ -16,8 +16,8 @@ body {
   height: 100px;
 }
 ol {
-  list-style-type: sans-serif;
-  {
+  list-style-type: lower-alpha;
+}
 ul {
   list-style-type: square;
-    }
+}
