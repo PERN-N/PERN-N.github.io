@@ -1,1 +1,23 @@
-
+body {
+  background-color: black;
+  color: white;
+}
+  h1 {
+    font-size: 20px;
+}
+  p {
+    font-size: 12px;
+    color: green;
+}
+.mydiv {
+  border-style: dotted;
+  border: 5px;
+  width: 100px;
+  height: 100px;
+}
+ol {
+  list-style-type: sans-serif;
+  {
+ul {
+  list-style-type: square;
+    }
