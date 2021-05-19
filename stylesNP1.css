@@ -1,0 +1,25 @@
+body {
+  background-image: url("brickwall1.jpg");
+  background-size: auto;
+  color: black;
+  font-weight: bold;
+}
+  h1 {
+    font-size: 20px;
+}
+  p {
+    font-size: 12px;
+    color: black;
+}
+.mydiv {
+  border-style: dotted;
+  border: 5px;
+  width: 100px;
+  height: 100px;
+}
+ol {
+  list-style-type: lower-alpha;
+}
+ul {
+  list-style-type: square;
+}
