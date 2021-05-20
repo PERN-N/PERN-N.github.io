@@ -1,25 +1,77 @@
-body {
-  background-image: url("brickwall1.jpg");
-  background-size: auto;
-  color: black;
-  font-weight: bold;
+body{
+    font-weight: bold;
+	text-align: center;
+	font-family:"Helvetica", sans-serif;
 }
-  h1 {
-    font-size: 20px;
+.biography-pg {				/* to set the background for this certain page */
+  background-color: black;
+  color: white;
+  }
+.concert-pg {				/* to set the background for this certain page */
+	background-image: url("brickwall1.jpg");
+	background-size: auto;
+	color: black;
 }
-  p {
-    font-size: 12px;
+.concert-upper_pg_headings {
+	background-color: black;
+	color: white;
+	border-radius: 20px 20px;
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 5px 10px;
+}
+.concert-lower_pg_headings {
+	text-transform: uppercase;
+}
+a {
+	font-size: 25px;
+}
+h1 {
+	font-size: 35px;
+	border: 5px solid white;
+	margin: 5px 10px;
+	padding: 10px 10px;
+	background-color: red;
+}
+h2 {
+	background-color:white;
+	border-radius: 20px 40px 150px 10px;
+	display:inline-block;
+	padding: 20px 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+p {
+    font-size: 16px;
     color: black;
+	background-color: white;
+	border-radius: 20px;
 }
 .mydiv {
-  border-style: dotted;
+  font-size: 16px;
+  border-style: solid;
+  border-color: red;
   border: 5px;
-  width: 100px;
-  height: 100px;
+  width: 450px;
+  height: 200px;
+  margin: auto; /* to center the div property on page */
+  padding: 30px 30px;
 }
 ol {
   list-style-type: lower-alpha;
+  display: table;			/* display, margin and text-align to have the list centered and list items "attached" and under each other in line */
+  margin: auto;
+  text-align: left;
 }
 ul {
   list-style-type: square;
+  display: table;
+  margin: auto;
+  text-align: left;
 }
+progress {
+	background: black; /* to set the color of the progress bar */
+	color:green;
+	font-size: 30px;
+}
+
